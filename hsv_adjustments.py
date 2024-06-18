@@ -76,7 +76,7 @@ class HSV_Adjustment:
 
 
 if __name__ == '__main__':
-    img = cv2.imread('/home/tsdl/UnitTest/data/6/battery#4_3294#0_2023040411072211.png')
+    img = cv2.imread('')
     tool = HSV_Adjustment()
     tool.HSV_bar(img)
 
